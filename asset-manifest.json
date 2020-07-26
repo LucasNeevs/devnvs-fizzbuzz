@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.js": "/static/js/main.f6ee6200.chunk.js",
-    "main.js.map": "/static/js/main.f6ee6200.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f76a6fc5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f76a6fc5.js.map",
-    "static/js/2.750bc751.chunk.js": "/static/js/2.750bc751.chunk.js",
-    "static/js/2.750bc751.chunk.js.map": "/static/js/2.750bc751.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d743ad5acf24f2978c2f1fd46c95333c.js": "/precache-manifest.d743ad5acf24f2978c2f1fd46c95333c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.750bc751.chunk.js.LICENSE.txt": "/static/js/2.750bc751.chunk.js.LICENSE.txt",
-    "static/media/mathWallpaper.jpg": "/static/media/mathWallpaper.53aaf601.jpg"
+    "main.js": "/devnvs-fizzbuzz/static/js/main.b226847a.chunk.js",
+    "main.js.map": "/devnvs-fizzbuzz/static/js/main.b226847a.chunk.js.map",
+    "runtime-main.js": "/devnvs-fizzbuzz/static/js/runtime-main.25e5ff20.js",
+    "runtime-main.js.map": "/devnvs-fizzbuzz/static/js/runtime-main.25e5ff20.js.map",
+    "static/js/2.2a361569.chunk.js": "/devnvs-fizzbuzz/static/js/2.2a361569.chunk.js",
+    "static/js/2.2a361569.chunk.js.map": "/devnvs-fizzbuzz/static/js/2.2a361569.chunk.js.map",
+    "index.html": "/devnvs-fizzbuzz/index.html",
+    "precache-manifest.d55ef26bd962ad75576a5fadbbb88f6e.js": "/devnvs-fizzbuzz/precache-manifest.d55ef26bd962ad75576a5fadbbb88f6e.js",
+    "service-worker.js": "/devnvs-fizzbuzz/service-worker.js",
+    "static/js/2.2a361569.chunk.js.LICENSE.txt": "/devnvs-fizzbuzz/static/js/2.2a361569.chunk.js.LICENSE.txt",
+    "static/media/LucasNeves.jpeg": "/devnvs-fizzbuzz/static/media/LucasNeves.0567c822.jpeg",
+    "static/media/mathWallpaper.jpg": "/devnvs-fizzbuzz/static/media/mathWallpaper.53aaf601.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f76a6fc5.js",
-    "static/js/2.750bc751.chunk.js",
-    "static/js/main.f6ee6200.chunk.js"
+    "static/js/runtime-main.25e5ff20.js",
+    "static/js/2.2a361569.chunk.js",
+    "static/js/main.b226847a.chunk.js"
   ]
 }
