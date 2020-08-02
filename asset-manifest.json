@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.js": "/devnvs-fizzbuzz/static/js/main.b226847a.chunk.js",
-    "main.js.map": "/devnvs-fizzbuzz/static/js/main.b226847a.chunk.js.map",
+    "main.js": "/devnvs-fizzbuzz/static/js/main.829a23e5.chunk.js",
+    "main.js.map": "/devnvs-fizzbuzz/static/js/main.829a23e5.chunk.js.map",
     "runtime-main.js": "/devnvs-fizzbuzz/static/js/runtime-main.25e5ff20.js",
     "runtime-main.js.map": "/devnvs-fizzbuzz/static/js/runtime-main.25e5ff20.js.map",
-    "static/js/2.2a361569.chunk.js": "/devnvs-fizzbuzz/static/js/2.2a361569.chunk.js",
-    "static/js/2.2a361569.chunk.js.map": "/devnvs-fizzbuzz/static/js/2.2a361569.chunk.js.map",
+    "static/js/2.8eb0b1bd.chunk.js": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js",
+    "static/js/2.8eb0b1bd.chunk.js.map": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js.map",
     "index.html": "/devnvs-fizzbuzz/index.html",
-    "precache-manifest.d55ef26bd962ad75576a5fadbbb88f6e.js": "/devnvs-fizzbuzz/precache-manifest.d55ef26bd962ad75576a5fadbbb88f6e.js",
+    "precache-manifest.5a6cfd070c3693f6c782d2f24997a92f.js": "/devnvs-fizzbuzz/precache-manifest.5a6cfd070c3693f6c782d2f24997a92f.js",
     "service-worker.js": "/devnvs-fizzbuzz/service-worker.js",
-    "static/js/2.2a361569.chunk.js.LICENSE.txt": "/devnvs-fizzbuzz/static/js/2.2a361569.chunk.js.LICENSE.txt",
-    "static/media/LucasNeves.jpeg": "/devnvs-fizzbuzz/static/media/LucasNeves.0567c822.jpeg",
-    "static/media/mathWallpaper.jpg": "/devnvs-fizzbuzz/static/media/mathWallpaper.53aaf601.jpg"
+    "static/js/2.8eb0b1bd.chunk.js.LICENSE.txt": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js.LICENSE.txt",
+    "static/media/LucasNeves.png": "/devnvs-fizzbuzz/static/media/LucasNeves.758156be.png",
+    "static/media/css.png": "/devnvs-fizzbuzz/static/media/css.b1f20c12.png",
+    "static/media/js.jpg": "/devnvs-fizzbuzz/static/media/js.0ae27692.jpg",
+    "static/media/mathWallpaper.jpg": "/devnvs-fizzbuzz/static/media/mathWallpaper.53aaf601.jpg",
+    "static/media/ts.png": "/devnvs-fizzbuzz/static/media/ts.4e96f111.png"
   },
   "entrypoints": [
     "static/js/runtime-main.25e5ff20.js",
-    "static/js/2.2a361569.chunk.js",
-    "static/js/main.b226847a.chunk.js"
+    "static/js/2.8eb0b1bd.chunk.js",
+    "static/js/main.829a23e5.chunk.js"
   ]
 }
