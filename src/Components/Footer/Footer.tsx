@@ -23,7 +23,7 @@ export default (): React.ReactElement<HTMLElement> => {
         alignItems="center"
         className={classes.footer}
       >
-        <Grid item md={6} xs={12} className={classes.links} style={{ padding: '10px 150px' }}>
+        <Grid item md={6} xs={12} className={classes.links}>
           <img src={myImage} alt="UserImage" className={classes.img} />
           <Typography
             component="p"
@@ -55,7 +55,7 @@ export default (): React.ReactElement<HTMLElement> => {
             }
           </Typography>
         </Grid>
-        <Grid item md={6} xs={12} className={classes.links} style={{ padding: '0px 100px' }}>
+        <Grid item md={6} xs={12} className={classes.links}>
           <img src={jsICO} alt="JS" width={30} height={30} />
           <img src={tsICO} alt="TS" width={30} height={30} />
           <img src={htmlICO} alt="HTML" width={30} height={30} />
