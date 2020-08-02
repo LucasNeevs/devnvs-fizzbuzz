@@ -3,6 +3,8 @@ import { withFormik, FormikProps } from 'formik';
 import { Grid, TextField, Button } from '@material-ui/core';
 import Result from '../Result/Result';
 import { resultData } from '../Result/Result.data';
+import useStyles from './Styles';
+import Title from './Title/Title';
 
 interface IForm {
   val: number,
@@ -19,17 +21,19 @@ const MyForm = (props: FormikProps<IForm>): React.ReactElement<HTMLElement> => {
     handleReset,
     isSubmitting,
   } = props;
+  const classes = useStyles();
 
   return (
-    <>
-      <form onSubmit={handleSubmit}>
+    <div className={classes.main}>
+      <Title title="Enjoy it!" />
+      <form onSubmit={handleSubmit} className={classes.form}>
         <Grid
           container
           alignItems="center"
           justify="center"
           spacing={2}
         >
-          <Grid item md={8} xs={12}>
+          <Grid item md={2} xs={12}>
             <TextField
               id="val"
               name="val"
@@ -37,6 +41,7 @@ const MyForm = (props: FormikProps<IForm>): React.ReactElement<HTMLElement> => {
               label="Value"
               variant="outlined"
               margin="dense"
+              type="number"
               value={values.val}
               error={touched.val as any && errors.val as any}
               helperText={(touched.val && errors.val) && errors.val}
@@ -45,7 +50,7 @@ const MyForm = (props: FormikProps<IForm>): React.ReactElement<HTMLElement> => {
               fullWidth
             />
           </Grid>
-          <Grid item md={4} xs={12} style={{ display: 'flex', flexDirection: 'row' }}>
+          <Grid item md={2} xs={12} style={{ display: 'flex', flexDirection: 'row' }}>
             <Button
               variant="contained"
               color="primary"
@@ -55,19 +60,11 @@ const MyForm = (props: FormikProps<IForm>): React.ReactElement<HTMLElement> => {
             >
               FizzBuzz
             </Button>
-            <Button
-              variant="contained"
-              color="default"
-              onClick={handleReset}
-              fullWidth
-            >
-              Reset
-            </Button>
           </Grid>
         </Grid>
       </form>
       <Result />
-    </>
+    </div>
   );
 };
 

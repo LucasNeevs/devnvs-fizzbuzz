@@ -16,13 +16,23 @@ interface IStyles {
   user: {
     color: string,
     padding: string | any,
+    fontSize: string | any,
   },
   img: {
-    width: string,
-    height: string,
+    width: number,
+    height: number,
     borderRadius: string,
     objectFit: string | any,
-  }
+  },
+  content: {
+    paddingTop: string | any,
+    color: string,
+  },
+  footerLinks: {
+    marginTop: number,
+    display: string | any,
+    flexDirection: string | any,
+  },
 }
 
 export default makeStyles((theme: Theme): IStyles => ({
@@ -40,12 +50,22 @@ export default makeStyles((theme: Theme): IStyles => ({
   },
   user: {
     color: '#fff',
-    padding: '40px',
+    padding: 0,
+    fontSize: 12,
   },
   img: {
-    width: '80px',
-    height: '80px',
+    width: 80,
+    height: 80,
     borderRadius: '50%',
     objectFit: 'cover',
+  },
+  content: {
+    paddingTop: 20,
+    color: '#fff',
+  },
+  footerLinks: {
+    marginTop: 10,
+    display: 'flex',
+    flexDirection: 'column',
   },
 }));

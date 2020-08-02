@@ -2,7 +2,7 @@ import { Theme, makeStyles } from '@material-ui/core/styles';
 
 interface IStyles {
   appbar: {
-    padding: string;
+    padding: number;
     backgroundColor: string;
     boxShadow: string;
     position: string | any;
@@ -22,7 +22,7 @@ interface IStyles {
 
 export default makeStyles((theme: Theme): IStyles => ({
   appbar: {
-    padding: '10px',
+    padding: 10,
     backgroundColor: 'transparent',
     boxShadow: 'none',
     position: 'absolute',

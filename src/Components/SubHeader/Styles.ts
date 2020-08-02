@@ -14,6 +14,7 @@ interface IStyles {
     },
   },
   title: {
+    fontWeight: string | any,
     textShadow: string;
     '@media(max-width: 767px)': {
       marginTop: string;
@@ -44,6 +45,7 @@ export default makeStyles((theme: Theme): IStyles => ({
     },
   },
   title: {
+    fontWeight: 'bold',
     textShadow: '5px 5px 5px #d4d4d4',
     '@media(max-width: 767px)': {
       marginTop: '30px',

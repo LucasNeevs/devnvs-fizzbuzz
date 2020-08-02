@@ -6,7 +6,7 @@ interface IStyles {
     display: string;
     alignItems: string;
     justifyContent: string;
-    height: string;
+    height: number;
     backgroundImage: string;
     backgroundPosition: string;
     backgroundRepeat: string;
@@ -29,7 +29,7 @@ export default makeStyles((theme: Theme): IStyles => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '400px',
+    height: 400,
     backgroundImage: `url(${MathWallpaper})`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

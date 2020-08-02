@@ -27,7 +27,7 @@ export default (): React.ReactElement<HTMLElement> => {
         alignItems="center"
         className={classes.footer}
       >
-        <Grid item md={6} xs={12} className={classes.links}>
+        <Grid item md={6} xs={12} className={classes.links} style={{ padding: '10px 150px' }}>
           <img src={myImage} alt="UserImage" className={classes.img} />
           <Typography
             component="p"
@@ -50,23 +50,28 @@ export default (): React.ReactElement<HTMLElement> => {
           <Typography
             component="p"
             variant="body1"
-            color="primary"
             align="center"
-            className={classes.user}
+            className={classes.content}
           >
-            Iniciando a carreira em 2019 e desenvolvendo diariamente com Javascript ES6^, React and Typescript
+            Iniciando a carreira em 2018 e desenvolvendo diariamente com Javascript ES6^, React e Typescript
           </Typography>
         </Grid>
         <Grid item md={6} xs={12} className={classes.links}>
-          <ul>
+          <Typography
+            variant="h6"
+            component="p"
+            align="center"
+            style={{ color: '#fff' }}
+          >
+            Do you want to see more?
+          </Typography>
+          <div className={classes.footerLinks}>
             {
               socials.map((social: string): React.ReactElement<HTMLElement> => (
-                <li>
-                  <a href={social} style={{ color: '#fff' }}>{social}</a>
-                </li>
+                <a href={social} style={{ color: '#fff' }}>{social}</a>
               ))
             }
-          </ul>
+          </div>
         </Grid>
         <Grid item md={12} xs={12} className={classes.links}>
           <Typography
