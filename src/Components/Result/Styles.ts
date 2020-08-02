@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Theme, makeStyles } from '@material-ui/core/styles';
 
 interface IStyles {
@@ -5,7 +6,12 @@ interface IStyles {
     display: string;
     alignItems: string;
     justifyContent: string;
-    // padding: number | string;
+  },
+  table: {
+    width: number,
+    border: string | never,
+    marginBottom: number,
+    textAlign: string | any,
   },
 }
 
@@ -14,6 +20,11 @@ export default makeStyles((theme: Theme): IStyles => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    // padding: '5px 400px',
+  },
+  table: {
+    width: 500,
+    border: '2px solid #d4d4d4',
+    marginBottom: 40,
+    textAlign: 'center',
   },
 }));

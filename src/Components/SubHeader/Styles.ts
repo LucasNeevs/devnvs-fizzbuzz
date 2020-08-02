@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Theme, makeStyles } from '@material-ui/core/styles';
 
 interface IStyles {
@@ -5,10 +6,10 @@ interface IStyles {
     display: string;
     alignItems: string;
     justifyContent: string;
-    height: string;
+    height: number;
     backgroundColor: string;
     margin: string;
-    padding: string;
+    padding: number;
     '@media(max-width: 767px)': {
       height: string;
     },
@@ -17,16 +18,16 @@ interface IStyles {
     fontWeight: string | any,
     textShadow: string;
     '@media(max-width: 767px)': {
-      marginTop: string;
-      marginBottom: string;
+      marginTop: number;
+      marginBottom: number;
       textAlign: string;
     },
   },
   subTitle: {
-    paddingTop: string;
+    paddingTop: number;
     '@media(max-width: 767px)': {
       padding: number;
-      marginBottom: string;
+      marginBottom: number;
     },
   },
 }
@@ -36,10 +37,10 @@ export default makeStyles((theme: Theme): IStyles => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '200px',
+    height: 200,
     backgroundColor: '#e9e9e9',
     margin: '-8px',
-    padding: '20px',
+    padding: 20,
     '@media(max-width: 767px)': {
       height: 'auto',
     },
@@ -48,16 +49,16 @@ export default makeStyles((theme: Theme): IStyles => ({
     fontWeight: 'bold',
     textShadow: '5px 5px 5px #d4d4d4',
     '@media(max-width: 767px)': {
-      marginTop: '30px',
-      marginBottom: '20px',
+      marginTop: 30,
+      marginBottom: 20,
       textAlign: 'center',
     },
   },
   subTitle: {
-    paddingTop: '20px',
+    paddingTop: 20,
     '@media(max-width: 767px)': {
       padding: 0,
-      marginBottom: '30px',
+      marginBottom: 30,
     },
   },
 }));

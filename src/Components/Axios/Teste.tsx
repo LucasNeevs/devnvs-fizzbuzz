@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from 'react';
-import MyFetch from '../Helpers/Fetch';
+import MyFetch from '../../Helpers/Fetch';
 
 interface IFetch {
   cep: string,

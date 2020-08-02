@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Theme, makeStyles } from '@material-ui/core/styles';
 import MathWallpaper from '../../Assets/Images/mathWallpaper.jpg';
 

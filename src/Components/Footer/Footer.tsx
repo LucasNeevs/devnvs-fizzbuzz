@@ -1,21 +1,17 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import useStyles from './Styles';
-import myImage from '../../Assets/Images/LucasNeves.jpeg';
+import myImage from '../../Assets/Images/LucasNeves.png';
+import jsICO from '../../Assets/Images/js.jpg';
+import tsICO from '../../Assets/Images/ts.png';
+import htmlICO from '../../Assets/Images/html.png';
+import cssICO from '../../Assets/Images/css.png';
 
 export default (): React.ReactElement<HTMLElement> => {
   const classes = useStyles();
-  const links = [
-    'https://www.google.com.br',
-    'https://www.google.com.br',
-    'https://www.google.com.br',
-    'https://www.google.com.br',
-  ];
   const socials = [
-    'https://www.google.com.br',
-    'https://www.google.com.br',
-    'https://www.google.com.br',
-    'https://www.google.com.br',
+    'https://github.com/LucasNeevs',
+    'https://www.linkedin.com/in/lucas-neves-215a93ba/',
   ];
 
   return (
@@ -53,22 +49,36 @@ export default (): React.ReactElement<HTMLElement> => {
             align="center"
             className={classes.content}
           >
-            Iniciando a carreira em 2018 e desenvolvendo diariamente com Javascript ES6^, React e Typescript
+            {
+              `I had started my carrer as a frontend developer in 2018, 
+              coding every day with Javascript ES6^, React e Typescript since then. 👨‍💻`
+            }
           </Typography>
         </Grid>
-        <Grid item md={6} xs={12} className={classes.links}>
+        <Grid item md={6} xs={12} className={classes.links} style={{ padding: '0px 100px' }}>
+          <img src={jsICO} alt="JS" width={30} height={30} />
+          <img src={tsICO} alt="TS" width={30} height={30} />
+          <img src={htmlICO} alt="HTML" width={30} height={30} />
+          <img src={cssICO} alt="CSS" width={30} height={30} />
           <Typography
-            variant="h6"
+            variant="h5"
             component="p"
             align="center"
-            style={{ color: '#fff' }}
+            className={classes.seeMore}
           >
             Do you want to see more?
           </Typography>
           <div className={classes.footerLinks}>
             {
-              socials.map((social: string): React.ReactElement<HTMLElement> => (
-                <a href={social} style={{ color: '#fff' }}>{social}</a>
+              socials.map((social: string, index: number): React.ReactElement<HTMLElement> => (
+                <Typography
+                  key={index.toString()}
+                  component="a"
+                  align="center"
+                  href={social}
+                >
+                  {social}
+                </Typography>
               ))
             }
           </div>

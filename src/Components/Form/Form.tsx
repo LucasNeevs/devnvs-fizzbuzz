@@ -56,6 +56,7 @@ const MyForm = (props: FormikProps<IForm>): React.ReactElement<HTMLElement> => {
               color="primary"
               type="submit"
               disabled={isSubmitting}
+              className={classes.button}
               fullWidth
             >
               FizzBuzz
@@ -73,8 +74,6 @@ export default withFormik({
   enableReinitialize: true,
   mapPropsToValues: (): IForm => ({ val: 0 }),
   handleSubmit: (values: IForm, { resetForm, setSubmitting }): void => {
-    // eslint-disable-next-line no-alert
-    alert(JSON.stringify(values));
     resultData.push({
       val: values.val,
     });

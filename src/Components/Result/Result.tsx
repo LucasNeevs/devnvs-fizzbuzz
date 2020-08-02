@@ -12,19 +12,29 @@ export default (): React.ReactElement<HTMLElement> => {
 
   return (
     <div className={classes.root}>
-      <Table style={{ width: '500px', border: '2px solid #d4d4d4', marginBottom: '40px', textAlign: 'center' }}>
+      <Table className={classes.table}>
         <TableHead>
           <TableRow>
-            <TableCell>Value</TableCell>
-            <TableCell>Answer</TableCell>
+            <TableCell align="center">Value</TableCell>
+            <TableCell align="center">Answer</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {
             state.map((s: IResult, index: number): React.ReactElement<HTMLElement> => (
               <TableRow key={index.toString()}>
-                <TableCell>{s.val}</TableCell>
-                <TableCell>{FizzBuzz(s.val)}</TableCell>
+                <TableCell align="center">
+                  {s.val}
+                </TableCell>
+                <TableCell align="center">
+                  {
+                    (FizzBuzz(s.val) === 'FizzBuzz') ? (
+                      <strong>{`${FizzBuzz(s.val)} 😎`}</strong>
+                    ) : (
+                      FizzBuzz(s.val)
+                    )
+                  }
+                </TableCell>
               </TableRow>
             ))
           }

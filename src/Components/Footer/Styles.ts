@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Theme, makeStyles } from '@material-ui/core';
 
 interface IStyles {
@@ -8,6 +9,9 @@ interface IStyles {
   links: {
     textAlign: string | any,
     flexDirection: string | any,
+    '& img': {
+      padding: number,
+    },
   },
   copy: {
     color: string,
@@ -15,8 +19,8 @@ interface IStyles {
   },
   user: {
     color: string,
-    padding: string | any,
-    fontSize: string | any,
+    padding: number,
+    fontSize: number,
   },
   img: {
     width: number,
@@ -25,13 +29,22 @@ interface IStyles {
     objectFit: string | any,
   },
   content: {
-    paddingTop: string | any,
+    paddingTop: number,
     color: string,
   },
   footerLinks: {
     marginTop: number,
     display: string | any,
     flexDirection: string | any,
+    '& a': {
+      fontSize: string | any,
+      color: string | any,
+      padding: number,
+    },
+  },
+  seeMore: {
+    marginTop: number,
+    color: string,
   },
 }
 
@@ -43,6 +56,9 @@ export default makeStyles((theme: Theme): IStyles => ({
   links: {
     textAlign: 'center',
     flexDirection: 'column',
+    '& img': {
+      padding: 5,
+    },
   },
   copy: {
     color: '#fff',
@@ -64,8 +80,17 @@ export default makeStyles((theme: Theme): IStyles => ({
     color: '#fff',
   },
   footerLinks: {
-    marginTop: 10,
+    marginTop: 5,
     display: 'flex',
     flexDirection: 'column',
+    '& a': {
+      fontSize: 16,
+      color: '#fff',
+      padding: 1,
+    },
+  },
+  seeMore: {
+    marginTop: 10,
+    color: '#fff',
   },
 }));

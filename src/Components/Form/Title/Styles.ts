@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Theme, makeStyles } from '@material-ui/core';
 
 interface IStyles {
