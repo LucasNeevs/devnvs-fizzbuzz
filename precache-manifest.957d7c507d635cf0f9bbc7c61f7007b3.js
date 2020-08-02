@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b804ae6cab5623dfcc54514b64ede61",
+    "revision": "7d09826ced8feafa2ab98885512f53d7",
     "url": "/devnvs-fizzbuzz/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "795b96979bf3ba3ed3d3",
-    "url": "/devnvs-fizzbuzz/static/js/main.829a23e5.chunk.js"
+    "revision": "e3636fdee1c0d392438b",
+    "url": "/devnvs-fizzbuzz/static/js/main.752d8d99.chunk.js"
   },
   {
     "revision": "803f19356edd191e2c62",

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/devnvs-fizzbuzz/static/js/main.829a23e5.chunk.js",
-    "main.js.map": "/devnvs-fizzbuzz/static/js/main.829a23e5.chunk.js.map",
+    "main.js": "/devnvs-fizzbuzz/static/js/main.752d8d99.chunk.js",
+    "main.js.map": "/devnvs-fizzbuzz/static/js/main.752d8d99.chunk.js.map",
     "runtime-main.js": "/devnvs-fizzbuzz/static/js/runtime-main.25e5ff20.js",
     "runtime-main.js.map": "/devnvs-fizzbuzz/static/js/runtime-main.25e5ff20.js.map",
     "static/js/2.8eb0b1bd.chunk.js": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js",
     "static/js/2.8eb0b1bd.chunk.js.map": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js.map",
     "index.html": "/devnvs-fizzbuzz/index.html",
-    "precache-manifest.5a6cfd070c3693f6c782d2f24997a92f.js": "/devnvs-fizzbuzz/precache-manifest.5a6cfd070c3693f6c782d2f24997a92f.js",
+    "precache-manifest.957d7c507d635cf0f9bbc7c61f7007b3.js": "/devnvs-fizzbuzz/precache-manifest.957d7c507d635cf0f9bbc7c61f7007b3.js",
     "service-worker.js": "/devnvs-fizzbuzz/service-worker.js",
     "static/js/2.8eb0b1bd.chunk.js.LICENSE.txt": "/devnvs-fizzbuzz/static/js/2.8eb0b1bd.chunk.js.LICENSE.txt",
     "static/media/LucasNeves.png": "/devnvs-fizzbuzz/static/media/LucasNeves.758156be.png",
@@ -19,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.25e5ff20.js",
     "static/js/2.8eb0b1bd.chunk.js",
-    "static/js/main.829a23e5.chunk.js"
+    "static/js/main.752d8d99.chunk.js"
   ]
 }
